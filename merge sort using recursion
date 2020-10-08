@@ -81,3 +81,35 @@ void mergeSort(int list[],int low,int mid,int high)
         list[k] = temp[k];
     }
 }
+
+
+
+/*bash programme example
+
+
+
+# app.properties
+db.uat.user=saple user
+db.uat.passwd=secret
+
+
+#/bin/sh
+function pause(){
+   read -p "$*"
+}
+
+file="./app.properties"
+
+if [ -f "$file" ]
+then
+    echo "$file found."
+ . $file
+
+echo "User Id " $db.uat.user
+echo "user password =" $db.uat.passwd
+else
+    echo "$file not found."
+fi
+
+
+*/
